@@ -1,6 +1,5 @@
-def main():
-    num1 = 4
-    num2 = 5
+def sum(num1, num2):
     sum = num1 + num2
-    print("Sum is: ", sum)
-main()
+    return sum
+ans = sum(4,5)
+print("Sum is: ", ans)
